@@ -2,7 +2,7 @@
 <manifest>
 
  <remote  name="evo"
-           fetch="https://github.com/ActiniumOS"
+           fetch="https://github.com/Evolution-XYZ"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/udc" />
