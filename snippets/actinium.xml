@@ -2,13 +2,13 @@
 <manifest>
 
  <remote  name="evo"
-           fetch="https://github.com/Evolution-XYZ"
+           fetch="https://github.com/ActiniumOS"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/udc" />
 
   <remote  name="evo"
-           fetch="https://github.com/Evolution-XYZ"
+           fetch="https://github.com/ActiniumOS"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/udc" />
