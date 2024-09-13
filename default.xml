@@ -1469,4 +1469,7 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/actinium.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/pixel.xml" />
 </manifest>
