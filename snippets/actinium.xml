@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote  name="evo"
+ <remote  name="actinium"
            fetch="https://github.com/ActiniumOS"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/udc" />
+           revision="refs/heads/VanillaIceCream" />
 
   <remote  name="evo"
            fetch="https://github.com/ActiniumOS"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/udc" />
+           revision="refs/heads/VanillaIceCream" />
 
   <remote  name="evo-devices"
-           fetch="https://github.com/Evolution-XYZ-Devices"
+           fetch="https://github.com/Evolution-X-Devices"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/udc" />
+           revision="refs/heads/VIC" />
 
   <remote  name="evo-mainlining"
            fetch="https://git.mainlining.org/EvolutionX"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/udc" />
+           revision="refs/heads/VIC" />
 
   <remote  name="evo-bitbucket"
            fetch="https://bitbucket.org/evo-x"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/udc" />
+           revision="refs/heads/VIC" />
 
   <remote  name="github-non-los"
            sync-c="true"
@@ -85,17 +85,17 @@
   <project path="lineage-sdk" name="lineage-sdk" remote="evo" />
 
   <!-- Sepolicy -->
-  <project path="device/lineage/sepolicy" name="device_evolution_sepolicy" remote="evo" />
+  <project path="device/lineage/sepolicy" name="device_evolution_sepolicy" remote="actinium" />
 
   <!-- System -->
-  <project path="system/core" name="system_core" groups="pdk" remote="evo" />
-  <project path="system/libhwbinder" name="system_libhwbinder" remote="evo" />
+  <project path="system/core" name="system_core" groups="pdk" remote="actinium" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="actinium" />
 
   <!-- Vendor -->
-  <project path="vendor/certification" name="vendor_certification" remote="evo" />
-  <project path="vendor/extras" name="vendor_extras" remote="evo" />
+  <project path="vendor/certification" name="vendor_certification" remote="actinium" />
+  <project path="vendor/extras" name="vendor_extras" remote="actinium" />
   <project path="vendor/gms" name="vendor_gms" remote="evo-bitbucket" clone-depth="1" />
-  <project path="vendor/lineage" name="vendor_evolution" remote="evo" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="evo" />
-  <project path="vendor/pixel-style" name="vendor_pixel" remote="evo" />
+  <project path="vendor/lineage" name="vendor_evolution" remote="actinium" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="actinium" />
+  <project path="vendor/pixel-style" name="vendor_pixel" remote="actinium" />
 </manifest>
